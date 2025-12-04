@@ -40,3 +40,8 @@ def drea():
 drea()
 print(dream)
 
+z=1.2
+y=2
+x=y+z
+print(__file__)
+
