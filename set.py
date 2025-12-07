@@ -1,0 +1,13 @@
+ola={'tirunelveli','madurai','nagercoil','trichy','kumbakonam'}
+uber={'kovilpatti','virudhunagar','tirunelveli','madurai'}
+print(ola.union(uber))
+print(ola.intersection(uber))
+print(uber.difference(ola))
+ola.add('karur')
+print(ola)
+ola.remove('kumbakonam')
+print(ola)
+ola.remove('tirunelveli')
+ola.add('kumbakonam')
+print(ola)
+print(ola.discard('tirunelveli'))
